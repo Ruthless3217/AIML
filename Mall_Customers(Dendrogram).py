@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 #Importing dataset
-dataset = pd.read_csv('C:/Users/yashr/OneDrive/Desktop/Yash/AIML/Mall_Customers.csv')
+dataset = pd.read_csv('Mall_Customers.csv')
 x=dataset.iloc[:,[3,4]].values
 
 import scipy.cluster.hierarchy as sch
