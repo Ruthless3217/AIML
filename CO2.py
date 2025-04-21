@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-df=pd.read_csv('C:/Users/yashr/OneDrive/Desktop/Yash/AIML/Datasets/CO2.csv')
+df=pd.read_csv('CO2.csv')
 df=df.dropna()
 
 print(df)
