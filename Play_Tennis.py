@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 
-df=pd.read_csv('C:/Users/yashr/OneDrive/Desktop/Yash/AIML/Datasets/PlayTennis.csv')
+df=pd.read_csv('PlayTennis.csv')
 print(df)
 from sklearn.preprocessing import LabelEncoder,MinMaxScaler,StandardScaler
 le=LabelEncoder()
