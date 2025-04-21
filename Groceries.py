@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from apyori import apriori
 
-df=pd.read_csv('C:/Users/yashr/OneDrive/Desktop/Yash/AIML/Datasets/groceries.csv')
+df=pd.read_csv('groceries.csv')
 records=[]
 
 for i in range(0,9834):
