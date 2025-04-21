@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-dataset=pd.read_csv('C:/Users/yashr/OneDrive/Desktop/Yash/AIML/Datasets/credit card.csv')
+dataset=pd.read_csv('credit card.csv')
 x=dataset.iloc[:,1:].values
 
 from sklearn.impute import SimpleImputer
