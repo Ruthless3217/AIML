@@ -1,7 +1,7 @@
 import pandas as pd
 from apyori import apriori
 
-df=pd.read_csv('C:/Users/yashr/OneDrive/Desktop/Yash/AIML/Datasets/iris.csv')
+df=pd.read_csv('iris.csv')
 
 df['sepal.length']=pd.cut(df['sepal.length'],bins=2,labels=["Short","long"])
 df['sepal.width']=pd.cut(df['sepal.width'],bins=2,labels=["Narrow","wide"])
