@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df=pd.read_csv('C:/Users/yashr/OneDrive/Desktop/Yash/AIML/Datasets/Social_Network_Ads.csv')
+df=pd.read_csv('Social_Network_Ads.csv')
 
 x=df.iloc[:,[2,3]].values
 y=df.iloc[:,4].values
