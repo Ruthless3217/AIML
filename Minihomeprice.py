@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-df=pd.read_csv('C:/Users/yashr/OneDrive/Desktop/Yash/AIML/Datasets/minihomeprices.csv')
+df=pd.read_csv('minihomeprices.csv')
 df=df.dropna()
 x=df[['area','bedrooms','age']]
 y=df['price']
