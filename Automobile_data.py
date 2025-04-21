@@ -5,7 +5,7 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 
 
-df=pd.read_csv('C:/Users/yashr/OneDrive/Desktop/Yash/AIML/Datasets/Automobile_data.csv')
+df=pd.read_csv('Automobile_data.csv')
 df.replace('?', np.nan, inplace=True)
 df=df.dropna()
 x=df[['engine-size','horsepower','curb-weight']]
